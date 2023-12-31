@@ -1,0 +1,158 @@
+@media screen and (max-width:1200px) {
+    .nav-phone-number {
+        display: none;
+    }
+}
+
+@media screen and (max-width:992px) {
+
+    .mail-section {
+        display: none !important;
+    }
+
+    .nav-item a {
+        margin-left: 0.5rem;
+    }
+
+    .construction>div>div {
+        grid-auto-flow: column !important;
+
+    }
+
+    main img {
+        text-align: center;
+    }
+
+    .contact-us {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:767px) {
+
+    .left-banner {
+        width: 100%;
+        text-align: center;
+    }
+
+    .right-banner {
+        width: 0%;
+    }
+
+    .social-media-section {
+        display: none;
+    }
+
+    .nav-item a {
+        font-size: 1rem;
+        color: var(--black-color);
+    }
+
+    .dropdown-menu {
+        background: none;
+        border: none;
+    }
+
+    .dropdown-menu a {
+        border: none;
+    }
+
+    .dropdown-menu a::before {
+        content: "-";
+        margin-left: 0.3rem;
+    }
+
+    .vision-mission {
+        padding-block: 4rem;
+        padding-inline: 6rem;
+    }
+
+    .construction>div>div,
+    .cement>div>div,
+    .textile>div>div,
+    .contact-us>div>div {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .contact-us form input,
+    .contact-us textarea {
+        width: 80%;
+    }
+
+    footer img {
+        width: 75%;
+    }
+
+    footer>div>div>div:nth-child(4) {
+        text-align: center;
+    }
+
+    footer>div>div>div:nth-child(4) p {
+        margin-top: 0.2rem;
+    }
+}
+
+@media screen and (max-width:600px) {
+
+    .vision-mission {
+        padding-block: 3rem;
+        padding-inline: 5rem;
+    }
+
+    .construction,
+    .steel,
+    .cement,
+    .electronics,
+    .textile,
+    .leather,
+    .contact-us {
+        margin-top: 2.5rem;
+    }
+
+    .product-section img,
+    .construction img,
+    .cement img,
+    .textile img,
+    .contact-us img,
+    .steel img,
+    .electronics img,
+    .leather img {
+        margin-top: 1.2rem;
+    }
+
+    .contact-us form input,
+    .contact-us textarea {
+        width: 90%;
+    }
+
+    footer img{
+       min-width: 200px;
+        margin-top: 0.6rem;
+    }
+    
+}
+
+@media screen and (max-width:450px) {
+    .vision-mission {
+        padding-block: 1.5rem;
+        padding-inline: 2.3rem;
+    }
+
+    footer {
+        margin-top: 1.5rem;
+        padding: 1.5rem 2rem;
+    }
+
+    .primary-btn{
+        width: 100px;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:340px) {
+    .vision-mission {
+        padding-block: 1.5rem;
+        padding-inline: 1.5rem;
+    }
+}
